@@ -1,6 +1,6 @@
 body {
-  font-family: 'Special Elite', cursive;		
-  background: #A8D8EA;
+  font-family: 'Special Elite', cursive !important;		
+  background: #A8D8EA !important;
   margin: 0;
 }
 
@@ -10,7 +10,7 @@ body {
 
 /*NAVBAR*/
 .navbar {
-  background-color: #005086;
+  background-color: #005086 !important;
   position: fixed; /* Set the navbar to fixed position */
   top: 0; /* Position the navbar at the top of the page */
   width: 100%; /* Full width */
@@ -20,7 +20,7 @@ body {
 
 .navbar a {
   font-weight: 200;
-  color: white;
+  color: white !important;
   padding: 14px 16px;
   text-decoration: none;
 }
@@ -35,7 +35,7 @@ body {
 /*JUMBOTRON*/
 .jumbotron {
   height: 100vh; /*height to 100% of view height*/
-  background: #A8D8EA; /*background color to blue*/
+  background: #A8D8EA !important; /*background color to blue*/
   margin-bottom: 0; /*no bottom margin*/
 
   display: flex;
@@ -48,7 +48,7 @@ img {
   /*TAGLINE UNDER NAME*/
   font-weight: 400;
   font-size: 2em;
-  color: #005086;
+  color: #005086 !important;
   text-align: center;
   padding-top: 150px;
 }
@@ -78,7 +78,7 @@ img {
 
 .social {
   font-size: 4em;
-  color: #005086;
+  color: #005086 !important;
   padding: 40px;
 }
 
@@ -92,7 +92,7 @@ img {
 }
 
 #down-arrow a {
-  color: #005086;
+  color: #005086 !important;
 }
 
 /*CONTENT*/
@@ -105,9 +105,14 @@ img {
 .row {
   display: flex;
 }
+.content-body{
+  margin-left: 20px;
+  text-align: center;
+}
 
 .white {
-  background: white;
+ 
+  background: white !important;
 }
 
 .side-content {
@@ -139,15 +144,15 @@ img {
 h2 {
   font-weight: 200;
   font-size: 3rem;
-  color: #005086;
+  color: #005086 !important;
   text-transform: uppercase;
   text-align: center;
 }
 
 .content-body {
   line-height: 1.5;
-  color: rgb(0,0,0);
-  font-family: 'Roboto', sans-serif;
+  color: rgb(0,0,0) !important;
+  font-family: 'Roboto', sans-serif !important;
   font-size: 1.1rem;
 }
 
@@ -155,16 +160,16 @@ h2 {
 .card {
   display: flex;
   flex-direction: column;
-  background-color: #b0cac7;
-  border: 1px solid #b0cac7;
+  background-color: #b0cac7 !important;
+  border: 1px solid #b0cac7 !important;
   border-radius: .25rem;
   margin-bottom: 30px;
 }
 
 .card-header {
   padding: .75rem 1.25rem;
-  background-color: #005086;
-  border-bottom: 1px solid #005086;
+  background-color: #005086 !important;
+  border-bottom: 1px solid #005086 !important;
   border-top-left-radius: .25rem;
   border-top-right-radius: .25rem;
 }
@@ -176,10 +181,10 @@ h2 {
 
 h4 {
   margin: 0;
-  font-family: 'Cormorant Upright', serif;
-  font-size: 2rem
+  font-family: 'Cormorant Upright', serif !important;
+  font-size: 2rem;
   font-weight: 400;
-  color: white;
+  color: white !important;
 }
 
 .job-title {
@@ -190,9 +195,10 @@ h4 {
 .project-card {
   display: flex;
   flex-direction: row;
-  background-color: #b0cac7;
-  border: 1px solid white;
+  background-color: #b0cac7 !important;
+  border: 1px solid white !important;
   border-radius: 5px;
+  margin-left: 15px;
   margin-bottom: 30px;
   box-shadow: 0 3px 6px rgba(0,0,0,0.08), 0 3px 6px rgba(0,0,0,0.15);
 }
@@ -225,23 +231,23 @@ h4 {
   display: inline-block;
   margin: 7px;
   padding: 5px 10px;
-  color: white;
+  color: white !important;
   text-decoration:None;
-  background: #005086;
+  background: #005086 !important;
   list-style: circle;
   cursor: default;
   font-size: 1.2em;
 }
 .link{
-	color:white;
+	color:white !important;
 	text-decoration:None;
 }
 .ibm-skills {
   display: inline-block;
   margin: 7px;
   padding: 5px 10px;
-  color: #005086;
-  background: #b0cac7;
+  color: #005086 !important;
+  background: #b0cac7 !important;
   list-style: circle;
   cursor: default;
   font-size: 1em;
@@ -250,7 +256,7 @@ h4 {
 
 /*CONTACT*/
 .blue {
-  background: #A8D8EA;
+  background: #A8D8EA !important;
   text-align: center;
 }
 
@@ -266,8 +272,8 @@ h4 {
   border-radius: 4px;
   border: none;
   margin-bottom: 10px;
-  background: #005086;
-  color: #fff;
+  background: #005086 !important;
+  color: #fff !important;
   -webkit-transition: .5s ease all;
   transition: .5s ease all;
 }
@@ -280,18 +286,62 @@ h4 {
 .contact button {
   display: block;
   width: 20%;
-  background: #b0cac7;
+  background: #b0cac7 !important;
   border-radius: 4px;
   padding: 5px 10px;
   border: none;
-  color: #005086;
+  color: #005086 !important;
   font-weight: 700;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24) !important;
   -webkit-transition: .5s ease all;
   transition: .5s ease all;
 }
 
 .white-text {
-  color: #005086;
+  color: #005086 !important;
   text-decoration:None;
 }
+
+
+.sidebar{
+  visibility: hidden;
+}
+.navbar{
+  position: fixed !important;
+  z-index: 1;
+}
+
+.container{
+  padding: 0 !important;
+  margin: 0 !important;
+
+  max-width: 100% !important;
+}
+.jumbotron{
+  height: fit-content !important;
+}
+.row{
+  padding-top: 50px;
+  height: fit-content;
+}
+
+
+
+/* mobile navbar sidebar under lg breakpoint */
+@media (max-width: 992px) {
+  
+
+  .project-card.row {
+    margin-left: 40px !important;
+  }
+
+}
+@media (min-width: 992px) {
+  
+
+  .project-card.row {
+    margin-left: 250px !important;
+  }
+
+}
+
